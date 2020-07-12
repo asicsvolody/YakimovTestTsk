@@ -12,7 +12,7 @@
 
     <build>
 
-        <finalName>TicketSoftTask</finalName>
+        <finalName>YakimovTestTask</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -27,7 +27,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>ru.yakimov.MainClass</mainClass>
+                            <mainClass>ru.yakimovvn.tick_tack.GameMain</mainClass>
                         </manifest>
                     </archive>
                     <descriptorRefs>
