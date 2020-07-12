@@ -33,6 +33,8 @@ public class SystemInUtils {
         return instance;
     }
 
+    private SystemInUtils() {
+    }
 
     /**
      * Опрашивает пользователя число в деопозоне
